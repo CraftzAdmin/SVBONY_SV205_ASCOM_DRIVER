@@ -34,7 +34,7 @@ It may contain bugs, limitations, or unexpected behavior. It may fail to connect
 
 The software is provided “as is”, without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, non-infringement, reliability, accuracy, or suitability for unattended operation.
 
-Daniel Brunod is not responsible for equipment damage, mount behavior, telescope behavior, camera behavior, data loss, guiding errors, imaging loss, missed observations, corrupted files, failed sessions, personal injury, property damage, or any misuse of the software.
+The developer is not responsible for equipment damage, mount behavior, telescope behavior, camera behavior, data loss, guiding errors, imaging loss, missed observations, corrupted files, failed sessions, personal injury, property damage, or any misuse of the software.
 
 You are responsible for validating the software safely in your own environment before using it in the field.
 
