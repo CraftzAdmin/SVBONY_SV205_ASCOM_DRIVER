@@ -41,6 +41,12 @@ This driver also does not provide official SVBONY SDK support, hardware firmware
 
 ---
 
+![Interface](images/interface1.jpg)
+
+
+![Interface](images/Interface2.jpg)
+
+
 ## Key features
 
 ```text
@@ -67,8 +73,9 @@ The driver uses the **luma/brightness information extracted from the SV205 video
 
 The driver uses stacking to combine all frames captured during the exposure duration requested by PHD2. For example, when PHD2 requests a 3-second exposure, the driver captures frames for approximately 3 seconds, then combines those frames into one final image before marking it ready for PHD2. This allows the SV205 to behave more like a guide camera even though it is internally delivering video frames. Depending on the selected stacking method, the driver can prioritize smoother guiding, brighter faint star acquisition, outlier rejection, or calibrated noise reduction.
 
----
+![Modes](images/modes.jpg)
 
+---
 ## Main operating modes
 
 The driver includes configuration profiles for common use cases:
@@ -226,6 +233,7 @@ Subtracts a compatible dark frame before averaging. Useful for fixed pattern noi
 
 **Obs — requirement:** This method requires a dark frame captured with the same camera configuration used for the light frames, including resolution, native exposure level, gain, stacking context, and preferably similar sensor temperature/USB conditions. If no compatible dark frame is available the driver fall back to normal Average stacking, or keep Dark Frame Subtraction disabled until a valid dark frame is configured.
 
+![Alt text](images/Interface3.jpg)
 ---
 
 ## Camera selection
