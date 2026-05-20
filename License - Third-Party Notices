@@ -1,0 +1,37 @@
+# Third-Party Notices
+
+This software may include, reference, or depend on third-party components.
+
+Each third-party component remains subject to its own license, terms, and notices. Nothing in the SV205 Synthetic Mono ASCOM Driver Beta License changes the rights or obligations provided by these third-party licenses.
+
+## ASCOM Platform
+
+This driver is intended for use with the ASCOM Platform and implements ASCOM camera-driver behavior.
+
+ASCOM Platform components, interfaces, tools, and documentation remain subject to their own licenses and terms.
+
+This project is not affiliated with, endorsed by, sponsored by, or officially supported by ASCOM.
+
+## OpenCvSharp / OpenCV
+
+This software may include or depend on OpenCvSharp and OpenCV runtime components for camera capture and image processing.
+
+OpenCvSharp and OpenCV remain subject to their own licenses and notices.
+
+This project is not affiliated with, endorsed by, sponsored by, or officially supported by OpenCvSharp or OpenCV.
+
+## Newtonsoft.Json
+
+This software may include or depend on Newtonsoft.Json.
+
+Newtonsoft.Json is distributed under its own license terms, commonly the MIT License. The original copyright and license notices for Newtonsoft.Json must be preserved where required.
+
+## Microsoft .NET
+
+This software targets Microsoft .NET Framework / runtime components as required by the Windows ASCOM driver environment.
+
+Microsoft .NET components remain subject to Microsoft’s own licenses and terms.
+
+## Other Components
+
+If additional third-party DLLs or runtime files are included in a release package, their license notices should be added to this file before distribution.
