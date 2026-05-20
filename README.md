@@ -233,7 +233,7 @@ Subtracts a compatible dark frame before averaging. Useful for fixed pattern noi
 
 **Obs — requirement:** This method requires a dark frame captured with the same camera configuration used for the light frames, including resolution, native exposure level, gain, stacking context, and preferably similar sensor temperature/USB conditions. If no compatible dark frame is available the driver fall back to normal Average stacking, or keep Dark Frame Subtraction disabled until a valid dark frame is configured.
 
-![Alt text](images/Interface3.jpg)
+![Dark](images/interface3.jpg)
 ---
 
 ## Camera selection
